@@ -12,7 +12,6 @@ const AppRouter = () => {
         <Switch>
           <Route exact path="/" component={Users} />
           <Route path="/createuser" component={CreateUser} />
-          <Route path="/users" component={Users} />
         </Switch>
       </div>
     </BrowserRouter>
